@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cars>
+  <car>
+    <idCar>1</idCar>
+    <mark>Renault Dokker</mark>
+    <type>Hatchback</type>
+    <carPrice>10846</carPrice>
+    <yearOfProduction>2013</yearOfProduction>
+    <priceForDay>15</priceForDay>
+  </car>
+  <car>
+    <idCar>2</idCar>
+    <mark>Honda Accord X</mark>
+    <type>Sedan</type>
+    <carPrice>54580</carPrice>
+    <yearOfProduction>2018</yearOfProduction>
+    <priceForDay>272</priceForDay>
+  </car>
+  <car>
+    <idCar>3</idCar>
+    <mark>Volkswagen Caddy</mark>
+    <type>Hatchback</type>
+    <carPrice>17927</carPrice>
+    <yearOfProduction>2010</yearOfProduction>
+    <priceForDay>17</priceForDay>
+  </car>
+  <car>
+    <idCar>4</idCar>
+    <mark>Audi A8</mark>
+    <type>Sedan</type>
+    <carPrice>128721</carPrice>
+    <yearOfProduction>2017</yearOfProduction>
+    <priceForDay>429</priceForDay>
+  </car>
+  <car>
+    <idCar>5</idCar>
+    <mark>Opel Astra J</mark>
+    <type>Hatchback</type>
+    <carPrice>15841</carPrice>
+    <yearOfProduction>2012</yearOfProduction>
+    <priceForDay>19</priceForDay>
+  </car>
+  <car>
+    <idCar>6</idCar>
+    <mark>Mercedes-Benz Citan</mark>
+    <type>Minibus</type>
+    <carPrice>24692</carPrice>
+    <yearOfProduction>2013</yearOfProduction>
+    <priceForDay>35</priceForDay>
+  </car>
+</cars>

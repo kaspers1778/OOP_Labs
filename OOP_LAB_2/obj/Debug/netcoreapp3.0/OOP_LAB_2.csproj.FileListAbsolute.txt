@@ -1,0 +1,11 @@
+C:\Users\Петя\source\repos\OOP_LAB_2\bin\Debug\netcoreapp3.0\OOP_LAB_2.exe
+C:\Users\Петя\source\repos\OOP_LAB_2\bin\Debug\netcoreapp3.0\OOP_LAB_2.deps.json
+C:\Users\Петя\source\repos\OOP_LAB_2\bin\Debug\netcoreapp3.0\OOP_LAB_2.runtimeconfig.json
+C:\Users\Петя\source\repos\OOP_LAB_2\bin\Debug\netcoreapp3.0\OOP_LAB_2.runtimeconfig.dev.json
+C:\Users\Петя\source\repos\OOP_LAB_2\bin\Debug\netcoreapp3.0\OOP_LAB_2.dll
+C:\Users\Петя\source\repos\OOP_LAB_2\bin\Debug\netcoreapp3.0\OOP_LAB_2.pdb
+C:\Users\Петя\source\repos\OOP_LAB_2\obj\Debug\netcoreapp3.0\OOP_LAB_2.csprojAssemblyReference.cache
+C:\Users\Петя\source\repos\OOP_LAB_2\obj\Debug\netcoreapp3.0\OOP_LAB_2.AssemblyInfoInputs.cache
+C:\Users\Петя\source\repos\OOP_LAB_2\obj\Debug\netcoreapp3.0\OOP_LAB_2.AssemblyInfo.cs
+C:\Users\Петя\source\repos\OOP_LAB_2\obj\Debug\netcoreapp3.0\OOP_LAB_2.dll
+C:\Users\Петя\source\repos\OOP_LAB_2\obj\Debug\netcoreapp3.0\OOP_LAB_2.pdb

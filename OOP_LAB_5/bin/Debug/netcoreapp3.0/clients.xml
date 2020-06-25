@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clients>
+  <client>
+    <idClient>1</idClient>
+    <fullName>John Andersson</fullName>
+    <adress>London</adress>
+    <phone>2809825659</phone>
+  </client>
+  <client>
+    <idClient>2</idClient>
+    <fullName>Vasiliy Ivanov</fullName>
+    <adress>Vena</adress>
+    <phone>4589562045</phone>
+  </client>
+  <client>
+    <idClient>3</idClient>
+    <fullName>Arseniy Markow</fullName>
+    <adress>Krakow</adress>
+    <phone>7856235453</phone>
+  </client>
+  <client>
+    <idClient>4</idClient>
+    <fullName>Oleg Petrov</fullName>
+    <adress>Kyiv</adress>
+    <phone>380985648216</phone>
+  </client>
+  <client>
+    <idClient>5</idClient>
+    <fullName>Ann Black</fullName>
+    <adress>New York</adress>
+    <phone>356498562</phone>
+  </client>
+</clients>

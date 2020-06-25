@@ -1,0 +1,11 @@
+D:\KPI\OOP\OOP_LAB_4\bin\Debug\netcoreapp3.0\OOP_LAB_4.exe
+D:\KPI\OOP\OOP_LAB_4\bin\Debug\netcoreapp3.0\OOP_LAB_4.deps.json
+D:\KPI\OOP\OOP_LAB_4\bin\Debug\netcoreapp3.0\OOP_LAB_4.runtimeconfig.json
+D:\KPI\OOP\OOP_LAB_4\bin\Debug\netcoreapp3.0\OOP_LAB_4.runtimeconfig.dev.json
+D:\KPI\OOP\OOP_LAB_4\bin\Debug\netcoreapp3.0\OOP_LAB_4.dll
+D:\KPI\OOP\OOP_LAB_4\bin\Debug\netcoreapp3.0\OOP_LAB_4.pdb
+D:\KPI\OOP\OOP_LAB_4\obj\Debug\netcoreapp3.0\OOP_LAB_4.csprojAssemblyReference.cache
+D:\KPI\OOP\OOP_LAB_4\obj\Debug\netcoreapp3.0\OOP_LAB_4.AssemblyInfoInputs.cache
+D:\KPI\OOP\OOP_LAB_4\obj\Debug\netcoreapp3.0\OOP_LAB_4.AssemblyInfo.cs
+D:\KPI\OOP\OOP_LAB_4\obj\Debug\netcoreapp3.0\OOP_LAB_4.dll
+D:\KPI\OOP\OOP_LAB_4\obj\Debug\netcoreapp3.0\OOP_LAB_4.pdb

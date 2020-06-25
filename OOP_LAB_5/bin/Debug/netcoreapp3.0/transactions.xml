@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<transactions>
+  <transaction>
+    <clientId>1</clientId>
+    <carId>4</carId>
+    <startDay>01.06.20</startDay>
+    <finishDay>26.06.20</finishDay>
+    <deposit>500</deposit>
+  </transaction>
+  <transaction>
+    <clientId>2</clientId>
+    <carId>2</carId>
+    <startDay>01.05.19</startDay>
+    <finishDay>12.05.19</finishDay>
+    <deposit>200</deposit>
+  </transaction>
+</transactions>
