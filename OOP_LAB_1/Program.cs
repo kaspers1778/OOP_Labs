@@ -1,130 +1,81 @@
 ﻿using System;
-using System.Linq;
 namespace OOP_LAB_1
 {
     class Program
-    {
+    { 
         static void Main(string[] args)
         {
-            Realization array = new ArrayRealization();
-            array.Create();
-            Realization LList = new LinkedListRealization();
-            LList.Create();
-            Console.WriteLine(array.isEmpty());
-            Console.WriteLine(LList.isEmpty());
-            array.AddCard("Ace", "Spades");
-            array.AddCard("Six", "Hearts");
-            LList.AddCard("Seven", "Clubs");
+              Realization real; //initialisation of Factory class
+
+              real = ChooseRealisation(); //picking a creator's type
+
+              IDeck deck = real.Create(); //Creating concrete product by 
+                                          // general interface
+
+              AddCardLoop(deck);          //Working with concrete product
+
         }
-
-    }
-
-    abstract class Realization 
-    {
-        abstract public Deck Create();
-        abstract public bool isEmpty();
-        abstract public void AddCard(string val,string suit);
-
-    }
-
-    class ArrayRealization : Realization
-    {
-        public ArrayDeck thisArrayDeck;
-        public override Deck Create()
+        /// <Summary>
+        /// Function to choose realisation between Array deck and Linked list deck.
+        /// </Summary>
+        public static Realization ChooseRealisation()
         {
-            thisArrayDeck = new ArrayDeck();
-            return thisArrayDeck;
-        }
-
-        public override bool isEmpty()
-        {
-            return (thisArrayDeck.Cards.Length == 0); 
-        }
-
-        public override void AddCard(string val,string suit)
-        {
-           if(Enum.IsDefined(typeof(Values),val) && Enum.IsDefined(typeof(Suits), suit))
+            Console.WriteLine("What type of deck you want to create?");
+            Console.WriteLine("\ta - Array deck");
+            Console.WriteLine("\tl - Linked list deck");
+            switch (Console.ReadLine())
             {
-                Array.Resize(ref thisArrayDeck.Cards, thisArrayDeck.Cards.Length + 1);
-                thisArrayDeck.Cards[thisArrayDeck.Cards.Length - 1] = new Card(suit, val);
-
-                Console.WriteLine("Card has been added.Now Array Deck is :");
-
-                foreach( Card el in thisArrayDeck.Cards)
-                {
-                    Console.WriteLine(el.Value + " of " + el.Suit);
-                }
-
-            }
-            else
-            {
-                Console.WriteLine("Enter valid name of card");
-            }
-
-        }
-    }
-
-    class LinkedListRealization : Realization
-    {
-        public LinkedListDeck thisLListDeck;
-        public override Deck Create()
-        {
-            thisLListDeck = new LinkedListDeck();
-            return thisLListDeck;
-        }
-
-        public override bool isEmpty()
-        {
-            return (thisLListDeck.Cards.Count == 0);
-        }
-
-        public override void AddCard(string val, string suit)
-        {
-            if (Enum.IsDefined(typeof(Values), val) && Enum.IsDefined(typeof(Suits), suit))
-            {
-                thisLListDeck.Cards.AddLast(new Card(suit, val));
-                Console.WriteLine("Card has been added.Now Linked List Deck is :");
-
-                foreach (Card el in thisLListDeck.Cards)
-                {
-                    Console.WriteLine(el.Value + " of " + el.Suit);
-                }
-
-            }
-            else
-            {
-                Console.WriteLine("Enter valid name of card");
+                case "a":
+                    return new ArrayRealization();
+                case "l":
+                    return new LinkedListRealization();
+                default:
+                    Console.WriteLine("There is no such option. Press any key to try again.");
+                    Console.ReadKey();
+                    Console.Clear();
+                    return ChooseRealisation();
             }
         }
-    }
-
-    abstract class Deck
-    {
-
-    }
-
-    class ArrayDeck : Deck
-    {
-        public Card[] Cards;
-
-        public ArrayDeck()
+        /// <Summary>
+        /// Function to add Card in Deck as long as user wants.
+        /// </Summary>
+        public static void AddCardLoop(IDeck deck)
         {
-            Cards = new Card[] { };
-            Console.WriteLine("ArrayDeck has created.");
+            Console.Clear();
+            Console.WriteLine(deck.ToString());
+            Console.WriteLine("Do you want to add new card to a deck?");
+            Console.WriteLine("\ty - Yes");
+            Console.WriteLine("\tn - No");
+            switch (Console.ReadLine())
+            {
+                case "y":
+                    Console.Clear();
+                    Console.WriteLine("Write the value of new card");
+                    string value = Console.ReadLine();
+                    Console.WriteLine("Write the suit of new card");
+                    string suit = Console.ReadLine();
+                    deck.AddCard(value, suit);
+                    Console.WriteLine("Press any key to continue");
+                    Console.ReadKey();
+                    Console.Clear();
+                    AddCardLoop(deck);
+                    break;
+                case "n":
+                    Console.Clear();
+                    Console.WriteLine(deck.ToString());
+                    Console.WriteLine("Press any key to quit");
+                    Console.ReadKey();
+                    Environment.Exit(0);
+                    break;
+                default:
+                    Console.WriteLine("There is no such option. Press any key to try again.");
+                    Console.ReadKey();
+                    Console.Clear();
+                    AddCardLoop(deck);
+                    break;
+            }
+
         }
+
     }
-    class LinkedListDeck : Deck
-    {
-        public System.Collections.Generic.LinkedList<Card> Cards;
-
-        public LinkedListDeck()
-        {
-            Cards = new System.Collections.Generic.LinkedList<Card> { };
-            Console.WriteLine("LinkedListDeck has created.");
-        }
-    }
-        
-    
-
-
 }

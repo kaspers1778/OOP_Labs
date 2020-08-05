@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\KPI\\OOP\\OOP_LAB_1\\OOP_LAB_1.csproj": {}
+    "D:\\KPI\\OOP\\OOP_Labs\\OOP_LAB_1\\OOP_LAB_1.csproj": {}
   },
   "projects": {
-    "D:\\KPI\\OOP\\OOP_LAB_1\\OOP_LAB_1.csproj": {
+    "D:\\KPI\\OOP\\OOP_Labs\\OOP_LAB_1\\OOP_LAB_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\KPI\\OOP\\OOP_LAB_1\\OOP_LAB_1.csproj",
+        "projectUniqueName": "D:\\KPI\\OOP\\OOP_Labs\\OOP_LAB_1\\OOP_LAB_1.csproj",
         "projectName": "OOP_LAB_1",
-        "projectPath": "D:\\KPI\\OOP\\OOP_LAB_1\\OOP_LAB_1.csproj",
+        "projectPath": "D:\\KPI\\OOP\\OOP_Labs\\OOP_LAB_1\\OOP_LAB_1.csproj",
         "packagesPath": "C:\\Users\\Петя\\.nuget\\packages\\",
-        "outputPath": "D:\\KPI\\OOP\\OOP_LAB_1\\obj\\",
+        "outputPath": "D:\\KPI\\OOP\\OOP_Labs\\OOP_LAB_1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"
